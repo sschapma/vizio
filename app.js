@@ -13,7 +13,7 @@ console.log('Listening on localhost:'+ port);
 
 let smartcast = require('vizio-smart-cast');
 let readline = require('readline'); // user input via cmd line
-let tv = new smartcast('192.168.0.101');
+let tv = new smartcast('192.168.86.29');
 
 // configure cmd line input
 const rl = readline.createInterface({
